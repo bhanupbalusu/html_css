@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms and Input</title>
+</head>
+
+<body>
+  <form action="productinput.go">
+    <!-- for and id should be same. input tag name attribute value is sent to server-->
+    <!-- Text -->
+    <div>
+      <label for="name">Name</label><br>
+      <input type="text" name="uname" id="name" value="Bhanu">
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" name="uemail" id="email" placeholder="Enter email">
+    </div>
+
+    <!-- Text Area -->
+    <div>
+      <label for="description">Description</label><br>
+      <textarea name="udesc" id="description" rows="5"></textarea>
+    </div>
+
+    <!-- Number -->
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="uage" id="age">
+    </div>
+
+    <!-- Date -->
+    <div>
+      <label for="date">Date</label><br>
+      <input type="datetime-local" name="date" id="date">
+    </div>
+
+    <!-- Select -->
+    <div>
+      <select name="fruits" id="fruits">
+        <option value="mango">mango</option>
+        <option value="apple">apple</option>
+        <option value="banana" selected>banana</option>
+      </select>
+
+    </div>
+
+    <!-- Radio -->
+    <div>
+      <label for="membership">Membership Type</label>
+      <input type="radio" name="mtype" value="basic" id="membership"> Basic
+      <input type="radio" name="mtype" value="standard" id="membership" checked> Standard
+      <input type="radio" name="mtype" value="advanced" id="membership"> Advanced
+    </div>
+
+    <!-- Checkbox -->
+    <div>
+      <label for="likes">I Like</label>
+      <input type="checkbox" name="ltype" value="singing" id="likes"> Singing
+      <input type="checkbox" name="ltype" value="dancing" id="likes" checked> Dancing
+      <input type="checkbox" name="ltype" value="music" id="likes"> Music
+    </div>
+
+    <!-- Submit -->
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+
+    <!-- Reset -->
+    <div>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+
+</html>

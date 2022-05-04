@@ -1,0 +1,11 @@
+VS-Code Shortcuts
+
+- ctrl, : to open settings
+- ctrl? : to comment the line for html code
+- ctrl/ : for empty comment
+- ctrl enter : to go to new line from anywhere
+- shift alt downarrow : to copy and paste to the next line
+- ctrl : to move cursor word by word
+- alt : to move the line up and down
+- ctrl D : to select multiple text and modify at the same time
+
